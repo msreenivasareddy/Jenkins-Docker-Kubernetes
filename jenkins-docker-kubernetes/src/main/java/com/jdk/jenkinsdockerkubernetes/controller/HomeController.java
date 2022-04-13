@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping("/start")
     public String start(){
-        return "Jusr a start test";
+        return "Just a start test";
     }
 }
