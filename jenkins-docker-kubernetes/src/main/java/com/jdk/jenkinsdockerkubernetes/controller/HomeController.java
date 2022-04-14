@@ -9,4 +9,8 @@ public class HomeController {
     public String start(){
         return "Just a start to test";
     }
+    @GetMapping("/pipeline")
+    public String pipeline(){
+        return "Just a pipeline demo";
+    }
 }
