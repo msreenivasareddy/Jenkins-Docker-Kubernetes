@@ -11,6 +11,6 @@ public class HomeController {
     }
     @GetMapping("/pipeline")
     public String pipeline(){
-        return "Just a pipeline demo";
+        return "Just a pipeline demo revised";
     }
 }
