@@ -13,4 +13,8 @@ public class HomeController {
     public String pipeline(){
         return "Just a pipeline demo revised";
     }
+    @GetMapping("/demotest")
+    public String demotest(){
+        return "Just a demo test";
+    }
 }
