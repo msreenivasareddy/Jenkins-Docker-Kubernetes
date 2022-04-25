@@ -15,6 +15,6 @@ public class HomeController {
     }
     @GetMapping("/demotest")
     public String demotest(){
-        return "Just a demo test"
+        return "Just a demo test";
     }
 }
